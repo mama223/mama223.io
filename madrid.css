@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#pm{
+    padding: auto;
+    margin: auto;
+    display: block;
+}
+#ip{
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+
+ol li{
+    color: white;
+}
+h2{
+    color: blue;
+    font-style: italic;
+    background-color: white;
+}
+a{
+    text-align: center;
+    color: blue;
+    background-color: white;
+    display: block;
+    padding: auto;
+    margin: auto;
+    width: 70px;
+    border-radius: 3px;
+    font-style: italic;
+    font-size: 20px;
+}

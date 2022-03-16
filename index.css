@@ -1,0 +1,62 @@
+body{
+    background-image: url(image3.webp);
+    background-repeat: no-repeat;
+    height: 140vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    text-transform: uppercase;
+    border: 1px transparent white;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+ul li a:hover{
+    color: black;
+    background-color: white;
+    
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+#mama{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 50%);
+
+}
+#mama h1{
+    color: white;
+    font-size: 60px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+p,a{
+    font-style: italic;
+    font-size: 40px ;
+    color: white;
+}
+header{
+    text-align: center;
+    background-color: white;
+    font-style: italic;
+    font-size: 40px;
+}
+
